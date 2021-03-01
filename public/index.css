@@ -1,0 +1,47 @@
+.brand
+{
+    line-height:0;
+    display:inline;
+}
+
+.res_name
+{
+    font-size:1.5rem;
+    font-weight:600;
+    font-family: 'Cormorant Garamond', serif;
+    padding-top: 1rem;
+}
+
+.res_type
+{
+    font-size:0.6rem;
+    letter-spacing: 0.2rem;
+    text-transform:uppercase;
+    color:#ff005c;
+    font-weight:500;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 0.08rem;
+    margin-bottom: 0;
+}
+
+.footer
+{
+    height: 6rem;
+    background-color: whitesmoke;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+.copyrightStyle
+{
+    padding-top: 0.8rem;
+    color: gray;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: 0.07rem;
+    font-size: 0.8rem;
+}
+
+.footerIcon
+{
+    padding-top: 0rem;
+}

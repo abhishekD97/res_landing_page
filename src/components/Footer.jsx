@@ -13,21 +13,19 @@ function Footer(){
 
     return (
         <div className="footer">
-        <hr/>
-        <div className="row mx-auto">
-        <div className="col-lg-2">
+        <hr className="footerHR"/>
+        <div className="parents">
+        <div className="child">
         <div className="brand">
         <p className="res_name">RestaurantName</p>
         <p className="res_type">Bar|Restaurant</p>
         </div>
         </div>
-        <div className="col-lg-4 copyrightStyle">
+        <div className="child copyrightStyle">
         <p className="">© Restaurant Name LTD. 2021</p>
         </div>
-        <div className="col-lg-3">
-        </div>
-        <div className="col-lg-3 footerIcon pt-2">
-        <a style={stylea} href="https://twitter.com/"><TwitterIcon className="ml-0 mr-2" style={{ fontSize: 30 }}/></a>
+        <div className="child footerIcon pt-2">
+        <a style={stylea} href="https://twitter.com/"><TwitterIcon className="mx-2" style={{ fontSize: 30 }}/></a>
         <a style={stylea} href="https://www.facebook.com/"><FacebookIcon className="mx-2" style={{ fontSize: 30 }}/></a>
         <a style={stylea} href="https://www.linkedin.com/"><LinkedInIcon className="mx-2" style={{ fontSize: 30 }}/></a>
         <a style={stylea} href="https://pinterest.com/"><PinterestIcon className="mx-2" style={{ fontSize: 30 }}/></a>
